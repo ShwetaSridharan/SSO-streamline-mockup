@@ -5,7 +5,7 @@ const InstructionsCard = () => {
     <div className="asana-card instructions-card">
       <h2>How to Test SSO Streamline Mock-up</h2>
       <ol style={{paddingLeft:'1.5rem'}}>
-        <li>Add a new user in the "Add User" view.</li>
+        <li>Add a new user (email address = For eg.-test123@test.com) in the "Add User" view.</li>
         <li>Switch to "User View" and select the newly added user.</li>
         <li>Request SSO provisioning for the user.</li>
         <li>Go to "Admin View" to see pending provisioning requests.</li>
