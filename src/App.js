@@ -41,7 +41,7 @@ const UserView = ({ currentUser, onRequestProvisioning }) => {
               Request SSO Provisioning
             </button>
           )}
-          {currentUser.requested && <p style={{color:'#da758b'}}>SSO Provisioning requested.</p>}
+          {currentUser.requested && <p style={{color:'black',fontWeight:'bold'}}>SSO Provisioning requested.</p>}
         </>
       ) : (
         <p>Please select a user.</p>
