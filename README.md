@@ -90,6 +90,9 @@ Each user is represented as:
   provisioned
 }
 
+```
+
+---
 ## Features
 
 ### User Lifecycle Simulation
@@ -137,7 +140,8 @@ npm test
 ```bash
 npm run build
 
-
+```
+---
 ## Current Limitations
 This is a frontend-only simulation. It does not include:
 - persistent storage
